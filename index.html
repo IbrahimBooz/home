@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/style.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <!--Navbar Start-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg fixed-top z-4">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">F<span class="text-danger fw-bold">CODER</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto fw-semibold text-center">
+          <a class="nav-link text-dark bg-light" aria-current="page" href="#">Anasayfa</a>
+          <a class="nav-link text-dark" href="#hak">Hakkımızda</a>
+          <a class="nav-link text-dark" href="#hak2">Servisler</a>
+          <a class="nav-link text-dark" href="#hak3">Portfolyo</a>
+          <a class="nav-link text-dark" href="#hak4">Takım</a>
+          <a class="nav-link text-dark" href="#hak5">Iletisim</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--Navbar end-->
+
+  <!--Carousel Start-->
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner position-relative">
+        <div class="carousel-item active">
+          <img src="/img/bob-brewer-aWZRjRyavjA-unsplash.jpg" class="d-block w-100 img-fluid" alt="...">
+          <div class="carousel-caption  d-md-block opacity-75">
+            <h5 class="fw-medium fs-1">For The Trip</h5>
+            <p class=" ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam praesentium ipsa itaque
+              atque fugit quisquam at incidunt sunt saepe nemo.</p>
+            <button class=" btn btn-warning opacity-75">Daha Fazla icin</button>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="/img/marek-piwnicki-MlRbhx_1Vy0-unsplash.jpg" class="d-block w-100 img-fluid" alt="...">
+          <div class="carousel-caption  d-md-block opacity-75">
+            <h5 class="fw-medium fs-1">For The Trip</h5>
+            <p class=" ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam praesentium ipsa itaque
+              atque fugit quisquam at incidunt sunt saepe nemo.</p>
+            <button class=" btn btn-warning opacity-75">Daha Fazla icin</button>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="/img/sergei-lisovskiy-WcfsVZsvmnA-unsplash.jpg" class="d-block w-100 img-fluid" alt="...">
+          <div class="carousel-caption  d-md-block opacity-75">
+            <h5 class="fw-medium fs-1">For The Trip</h5>
+            <p class=" ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam praesentium ipsa itaque
+              atque fugit quisquam at incidunt sunt saepe nemo.</p>
+            <button class=" btn btn-warning opacity-75">Daha Fazla icin</button>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="/img/yevhenii-aihubov-88Yt8rpS6iU-unsplash.jpg" class="d-block w-100 img-fluid" alt="...">
+          <div class="carousel-caption  d-md-block opacity-75">
+            <h5 class="fw-medium fs-1">For The Trip</h5>
+            <p class=" ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam praesentium ipsa itaque
+              atque fugit quisquam at incidunt sunt saepe nemo.</p>
+            <button class=" btn btn-warning opacity-75">Daha Fazla icin</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!--Carousel End-->
+
+  <!--Content Start-->
+  <section>
+    <div class="container" id="hak">
+      <div class="row d-flex align-items-center">
+        <div class="col-md mt-5 pt-5" data-aos="fade-up">
+          <img src="/img/marek-piwnicki-4D_udGMVq3s-unsplash.jpg" class="img-fluid w-100 mb-5 " alt="">
+        </div>
+        <div class="col-md text-md-start text-center mt-5" data-aos="fade-down">
+          <h5 class="fw-medium fs-1">For The Trip</h5>
+          <p class=" ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam praesentium ipsa itaque
+            atque fugit quisquam at incidunt sunt saepe nemo.</p>
+          <button class=" btn btn-warning opacity-75">Daha Fazla icin</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!--Content end-->
+
+  <!--Card Start-->
+  <section>
+    <div class="container mt-5 py-5" id="hak2">
+      <div class="row mt-5" >
+        <h3 class="text-center " data-aos="fade-up" >Options</h3>
+        <p class="text-center" data-aos="fade-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, temporibus.</p>
+        <div class="col-md mb-5">
+          <div class="card text-center bg-dark text-light  w-100 lh-lg" data-aos="fade-up">
+            <div class="card-body" >
+              <i class="bi bi-airplane-fill fs-1 fw-bold "></i>
+              <h5 class="card-title fs-3">First Class</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos similique error
+                ad voluptate voluptatem id sint optio, quaerat reprehenderit cum, debitis molestias! Impedit, alias
+                dolores. Mollitia enim dolor eligendi commodi?</p>
+              <a href="#" class="btn btn-primary opacity-75">More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md mb-5">
+          <div class="card text-center bg-secondary opacity-100 text-dark lh-lg">
+            <div class="card-body ">
+              <i class="bi bi-question-circle fs-1 fw-bold "></i>
+              <h5 class="card-title fs-3 opacity-75">Questions</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos similique error
+                ad voluptate voluptatem id sint optio, quaerat reprehenderit cum, debitis molestias! Impedit, alias
+                dolores. Mollitia enim dolor eligendi commodi?</p>
+              <a href="#" class="btn btn-primary opacity-75">More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md mb-5">
+          <div class="card text-center bg-dark text-light lh-lg " data-aos="fade-down">
+            <div class="card-body">
+              <i class="bi bi-battery-full fs-1 fw-bold "></i>
+              <h5 class="card-title fs-3">Energy</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos similique error
+                ad voluptate voluptatem id sint optio, quaerat reprehenderit cum, debitis molestias! Impedit, alias
+                dolores. Mollitia enim dolor eligendi commodi?</p>
+              <a href="#" class="btn btn-primary opacity-75">More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!--Card End-->
+
+  <!--Options Start-->
+  <section class="mt-5" id="hak3">
+    <div class="container" >
+      <div class="row mt-5 py-5" >
+        <h3 class="text-center py-3" data-aos="fade-up">Options</h3>
+        <p class="text-center" data-aos="fade-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, temporibus.</p>
+        <div class="col-md mb-5 " data-aos="fade-down">
+          <div class="card bg-white text-center">
+            <div class="card-body   shadow">
+              <img src="/img/photo-1687214998131-de235a0a251a.avif" class="w-100 " alt="">
+              <h3 class="mt-3">Mountain</h3>
+              <p class="card-text text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                explicabo quas at id aliquam veniam, veritatis deleniti deserunt dignissimos laborum, architecto nobis
+                hic mollitia perferendis itaque quasi voluptates soluta autem.</p>
+              <a href="#" class="btn btn-primary opacity-75">For More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md mb-5" data-aos="fade-up">
+          <div class="card bg-white text-center">
+            <div class="card-body  shadow">
+              <img src="/img/spenser-sembrat-zVJSJVGAgYs-unsplash.jpg" class="w-100" alt="">
+              <h3 class="mt-3">Mountain</h3>
+              <p class="card-text text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                explicabo quas at id aliquam veniam, veritatis deleniti deserunt dignissimos laborum, architecto nobis
+                hic mollitia perferendis itaque quasi voluptates soluta autem.</p>
+              <a href="#" class="btn btn-primary opacity-75">For More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md mb-5" data-aos="fade-right">
+          <div class="card bg-white text-center">
+            <div class="card-body  shadow">
+              <img src="/img/dhilip-antony-Eqc_Q15YbLU-unsplash.jpg" class="w-100 " alt="">
+              <h3 class="mt-3">Mountain</h3>
+              <p class="card-text text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                explicabo quas at id aliquam veniam, veritatis deleniti deserunt dignissimos laborum, architecto nobis
+                hic mollitia perferendis itaque quasi voluptates soluta autem.</p>
+              <a href="#" class="btn btn-primary opacity-75">For More</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!--Options End-->
+
+  <!--Friend Start-->
+  <section>
+    <div class="container" id="hak4">
+      <div class="row mb-2 mt-5 py-5">
+        <h3 class="text-center mt-3">Teammate</h3>
+        <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos voluptas sapiente corrupti
+          beatae praesentium, omnis sunt hic? Ipsam reiciendis, amet eos, nisi nemo ex beatae quisquam qui voluptates
+          corrupti rerum.</p>
+        <div class="col-md ">
+          <div class="card  shadow-lg p-3 mb-5 bg-body-tertiary">
+            <div class="card-body text-center">
+              <img src="/img/team-1.jpg" class="rounded-circle" alt="...">
+              <h2 class="lead fs-3 ">Jack Wilson</h2>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <p class="fs-3 shadow">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-linkedin"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card  shadow-lg p-3 mb-5 bg-body-tertiary">
+            <div class="card-body text-center">
+              <img src="/img/team-2.jpg" class="rounded-circle" alt="...">
+              <h2 class="lead fs-3 ">Jack Wilson</h2>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <p class="fs-3  shadow">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-linkedin"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card  shadow-lg p-3 mb-5 bg-body-tertiary">
+            <div class="card-body text-center">
+              <img src="/img/team-3.jpg" class="rounded-circle" alt="...">
+              <h2 class="lead fs-3 ">Jack Wilson</h2>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <p class="fs-3  shadow">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-linkedin"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card  shadow-lg p-3 mb-5 bg-body-tertiary">
+            <div class="card-body text-center">
+              <img src="/img/team-4.jpg" class="rounded-circle" alt="...">
+              <h2 class="lead fs-3 ">Jack Wilson</h2>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <p class="fs-3 shadow">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-linkedin"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!--Friend End-->
+
+  <!--Contact Us start-->
+  <div class="container">
+    <h2 class="text-center">Contact Us</h2>
+    <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsa, maiores at eum
+      voluptate vel dolorem molestiae officia laudantium autem mollitia fugit deserunt omnis eos Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quos magni facere!</p>
+  </div>
+  <section class="d-md-flex container">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-11">
+          <img src="/img/thomas-lefebvre-gp8BLyaTaA0-unsplash.jpg" class="w-100 img-fluid ms-auto d-none d-md-flex"
+            alt="">
+        </div>
+      </div>
+    </div>
+    <div class="container " id="hak5">
+      <div class="row  d-flex flex-column ">
+        <div class="col-md-12  d-flex   gap-2">
+          <div class="col-6 ">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label ">Name:</label>
+              <input type="email" class="form-control border border-primary" id="exampleFormControlInput1"
+                placeholder="Name">
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="mb-3">
+              <label for="exampleFormControlInput2" class="form-label">Surname:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Surname">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12  d-flex gap-2 ">
+          <div class="col-6">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="mb-3">
+              <label for="exampleFormControlInput4" class="form-label">Phone:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput4" placeholder="+4555455">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 ">
+          <div class="">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control text-area" id="exampleFormControlTextarea1" placeholder="Message"
+              rows="4"></textarea>
+          </div>
+          <button class="btn btn-primary  mb-5 mt-3 px-5 py-2 con-btn" type="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!--Contact Us end-->
+
+  <!--Footer Start-->
+  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <!-- Grid container -->
+    <div class="container ">
+      <!-- Section: Social media -->
+      <section class="">
+        <!-- Facebook -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark "
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-link btn-lg  text-dark "
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark "
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark "
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark "
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark "
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center text-dark p-2" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!--Footer End-->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="/anim.js"></script>
+</body>
+
+</html>
